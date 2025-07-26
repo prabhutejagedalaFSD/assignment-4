@@ -1,0 +1,311 @@
+#mainbox{
+    height: 100px;
+    width: 1900px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    font-size:large;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/12/15/09/95/1000_F_1215099582_lz4HaDS4ojlHWBqdJPtftvXgqIrks1AE.jpg);
+    margin: auto;
+   
+}
+.navbox{
+    height: 100px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: center; 
+    color: gold;
+   
+}
+a{
+    text-decoration: none;
+    font-size: large; 
+    font-weight: bold;
+    color: gold;
+}
+#aboutme {
+    height: 500px;
+    width: 1700px;
+    color: gold;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     background-image: url(https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: larger;
+}
+.pbox{
+    height: 700px;
+    width: 1700px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    gap: 20px;
+    align-items:center;
+    justify-content: center;
+    background-color: black; 
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+
+}
+#EXPERIENCE {
+    height: 250px;
+    width: 1400px;
+    color: gold;
+    margin: auto;
+    align-items:center;
+ background-color: rgb(230, 163, 163);    justify-content: center;
+    border-radius: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#skills {
+    height: 200px;
+    width: 600px;
+    color: gold;
+    align-items:baseline;
+ background-color: rgb(225, 175, 175);    border-radius: 10px;
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#hobbies {
+    height: 200px;
+    width: 800px;
+    color: gold;
+    margin: auto;
+    align-items: center;
+    background-color:rgb(240, 159, 159);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#PROJECT{
+    height: 550px;
+    width: 1700PX;
+    color: gold;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contact{
+     height: 600px;
+    width: 1700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgb(227, 124, 124); 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+ button{
+    height: 40px;
+    width: 100PX;
+    color: rgb(229, 13, 99);
+    background-color: rgb(243, 247, 11);
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#box{
+    padding: 20PX;
+    height: 450px;
+    width: 600PX;
+    font-family:Verdana;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h2,h3,h4{
+    color: rgb(62, 53, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:10px solid;
+}
+p,form{
+    text-align: center;
+    color: rgb(106, 90, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+li{
+    color: rgb(99, 101, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: beige;
+    display: flex;
+    background-color: rgb(33, 3, 62);
+    height: 30px;
+}
+@media screen and (min-width:1px) and (max-width: 600px) {
+    #mainbox{
+        color: rgb(4, 134, 26); 
+        height: 120px;
+        width: 98vw;
+        font-size: small;
+
+    }
+    .navbox{
+        display: flex;
+        flex-direction: row;
+    }
+    #aboutme{
+        height: 500px;
+        width: 98vw;
+        font-size: small;
+    }
+    .pbox{
+        height: 900px;
+        width: 100vw;
+        display:flex;
+        flex-direction: column;
+         font-size: small;
+    
+    } 
+    #EXPERIENCE {
+        height: 350px;
+        width: 95VW;
+        color: gold;
+        font-size: small;
+    }
+    #skills {
+        height: 200px;
+        width: 90vw;
+        color: gold;
+        font-size: small;
+    }
+    #hobbies{
+        height: 200px;
+        width: 95VW;
+        color: gold;
+        font-size: small;
+    
+    }
+    #PROJECT{
+        height: 600px;
+        width: 95VW;
+        color: gold;
+        font-size: small;
+    }
+    #contact{
+        height: 600px;
+        width: 95vw;
+     
+    }
+    #box{
+        height: 500px;
+        width: 95VW;
+        color: gold;
+        
+    }
+
+
+
+
+
+}
+    
+
+
+@media screen and (min-width:601px) and (max-width: 1000px) {
+    #mainbox{
+        color: rgb(245, 2, 2);
+        height: 120px;
+        font-size: small;
+        width: 100VW;
+    }
+     .navbox{
+        display: flex;
+        flex-direction: row;
+    }
+     #aboutme{
+        height: 500px;
+        width: 100vw;
+         font-size: small;
+    }
+    .pbox{
+        height: 700px;
+        width: 100VW;
+        display:flex;
+        flex-direction:row ;
+         font-size: small;
+    }
+    #EXPERIENCE {
+        height: 600px;
+        width: 100VW;
+        color: gold;
+        font-size: small;
+    }
+    #skills {
+        height: 200px;
+        width: 100vw;
+        color: gold;
+        font-size: small;
+    }
+    #hobbies{
+        height: 200px;
+        width: 100VW;
+        color: gold;
+        font-size: small;
+    
+    }
+    #PROJECT{
+        height: 500px;
+        width: 95VW;
+        color: gold;
+        font-size: small;
+    }
+    #contact{
+        height: 600px;
+        width: 95vw;
+     
+    }
+    #box{
+        height: 500px;
+        width: 95VW;
+        color: gold;
+        
+    }
+
+}
+    
+    
